@@ -60,7 +60,8 @@ newCard.appendChild(cardFooter);
 
 
 cardContainer.appendChild(newCard);
+    document.getElementById("classForm").reset();
 document.getElementById("formContainer").style.display = "none";
-document.getElementById("classForm").reset();
+
 
 }
